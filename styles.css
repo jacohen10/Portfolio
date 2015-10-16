@@ -15,7 +15,6 @@ header ul {
   text-align: right;
   margin-right: 40px;
   font-size: 18px;
-
 }
 
 header ul li{
@@ -52,11 +51,27 @@ a:active {
 
 main{
 background: #7cd3cc;
+}
 
+main img {
+  max-width: 100%;
+  max-height: 1000px;
+  background-size: cover;
 }
 
 .portfolio{
-  padding: 0 0 155px 0;
+  padding: 0px 0px 35px 0px;
+  max-width: 95%;
+  margin: auto;
+}
+
+.portfolio .content {
+
+}
+
+.portfolio .content img{
+  max-width: 500px;
+  margin-left: 10px;
 }
 
 .about {
@@ -67,7 +82,6 @@ background: #7cd3cc;
 
 .content{
   margin: 0 90px 0 90px;
-
 }
 
 .title {
@@ -79,4 +93,19 @@ background: #7cd3cc;
 
 .title a {
   text-decoration: none;
+}
+
+footer{
+  background: black;
+  margin: auto;
+  color: white;
+  text-align: center;
+  padding: 15px 0px 15px 0px;
+}
+
+footer li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 40px;
+    font-size: 18px;
 }
