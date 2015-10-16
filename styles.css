@@ -1,0 +1,82 @@
+body {
+  margin: auto;
+  font-family: georgia;
+}
+
+header{
+  background-color: black;
+  color:white;
+  padding: 1px;
+  text-align: center;
+}
+
+header ul {
+  list-style-type: none;
+  text-align: right;
+  margin-right: 40px;
+  font-size: 18px;
+
+}
+
+header ul li{
+  display: inline;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+header h1{
+  font-family: 'Tangerine', cursive;
+  font-size: 40px;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: #37a5a3;
+}
+
+main{
+background: #7cd3cc;
+
+}
+
+.portfolio{
+  padding: 0 0 155px 0;
+}
+
+.about {
+  margin: auto;
+  padding: 15px 0 25px 0;
+}
+
+
+.content{
+  margin: 0 90px 0 90px;
+
+}
+
+.title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.title a {
+  text-decoration: none;
+}
