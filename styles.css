@@ -3,6 +3,10 @@ body {
   font-family: georgia;
 }
 
+h2 {
+  color: yellow;
+}
+
 header{
   background-color: black;
   color:white;
