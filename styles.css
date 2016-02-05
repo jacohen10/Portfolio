@@ -130,3 +130,8 @@ footer li{
     margin-right: 40px;
     font-size: 18px;
 }
+
+footer img {
+  width: 75px;
+  height: 57px;
+}
