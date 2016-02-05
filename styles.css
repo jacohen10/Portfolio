@@ -19,17 +19,32 @@ header ul {
   text-align: right;
   margin-right: 40px;
   font-size: 18px;
+  text-align: center;
 }
 
 header ul li{
   display: inline;
   margin-right: 15px;
   font-weight: bold;
+
 }
 
 header h1{
   font-family: 'Tangerine', cursive;
   font-size: 40px;
+}
+
+header img {
+  width: 40px;
+  height: 40px;
+}
+
+.social-icons {
+  text-align: right;
+  position: absolute;
+    top: 0px;
+    right: 0px;
+
 }
 
 /* unvisited link */
