@@ -76,6 +76,7 @@ main{
 
 main img {
   max-width: 100%;
+  min-width: 100%;
   background-size: cover;
 }
 
