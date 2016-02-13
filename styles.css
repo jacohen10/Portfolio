@@ -17,16 +17,18 @@ header{
 header ul {
   list-style-type: none;
   text-align: right;
-  margin-right: 40px;
   font-size: 18px;
   text-align: center;
+  padding: 0;
 }
 
-header ul li{
+header ul li {
   display: inline;
-  margin-right: 15px;
   font-weight: bold;
+}
 
+header li:first-child {
+  margin-right: 15px;
 }
 
 header h1{
@@ -74,7 +76,6 @@ main{
 
 main img {
   max-width: 100%;
-  max-height: 1000px;
   background-size: cover;
 }
 
