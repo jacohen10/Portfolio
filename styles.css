@@ -23,7 +23,7 @@ header ul li {
   font-weight: bold;
 }
 
-header li:first-child {
+header li {
   margin-right: 15px;
 }
 
@@ -37,13 +37,6 @@ header img {
   height: 40px;
 }
 
-.social-icons {
-  text-align: right;
-  position: absolute;
-    top: 0px;
-    right: 0px;
-
-}
 
 /* unvisited link */
 a:link {
@@ -178,21 +171,26 @@ ul.img-list li:hover span.text-content {
 }
 
 footer{
-
   margin: auto;
-
   text-align: center;
-  padding: 15px 0px 15px 0px;
+  padding: 0;
+
 }
 
-footer li{
+.contact ul li{
     display: inline;
     list-style-type: none;
-    margin-right: 40px;
+    padding: 0;
     font-size: 18px;
+    margin-bottom: 10px;
 }
 
-footer img {
+#email {
   width: 75px;
   height: 57px;
+}
+
+footer li img {
+  width: 75px;
+  height: 75px;
 }
