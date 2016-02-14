@@ -3,10 +3,6 @@ body {
   font-family: georgia;
 }
 
-h2 {
-  color: yellow;
-}
-
 header{
   background-color: black;
   color:white;
@@ -70,15 +66,12 @@ a:active {
     color: #37a5a3;
 }
 
-main{
-
-}
 
 main img {
-  max-width: 100%;
-  min-width: 100%;
+  width: 100%;
   background-size: cover;
 }
+/*PORTFOLIO*/
 
 .portfolio{
   padding: 0px 0px 35px 0px;
@@ -86,17 +79,80 @@ main img {
   margin: auto;
 }
 
-.portfolio .content {
-
-}
 
 .portfolio .content img{
-  max-width: 490px;
+  width: 100%;
   margin-left: 10px;
   border: 4px solid #C8C8C8 ;
   border-radius: 6px;
 }
 
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.text-content h2 {
+  text-align: center;
+  color: #086788;
+  font-family: 'Tangerine', cursive;
+  font-size: 5em;
+  margin: 10px 0 5px 0;
+}
+
+.text-content p {
+  padding: 0 5% 0 5%;
+}
+
+ul.img-list li {
+  display: inline-block;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 100%;
+}
+span.text-content {
+  background: rgba(0,0,0,1);
+  color: white;
+  cursor: pointer;
+  display: table;
+  margin-left: 10px;
+  font-size: 1em;
+  border-radius: 6px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+ul.img-list li:hover span.text-content {
+  margin-left: 10px;
+  opacity: 1;
+}
+
+#portfolio-features li {
+  display: list-item;
+  list-style-type: disc;
+  margin: 15px;
+}
+
+@media only screen and (max-width: 849px) {
+    #portfolio-features {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .text-content p {
+        display: none;
+    }
+}
+/*ABOUT ME*/
 .about {
   margin: auto;
   padding: 15px 0 25px 0;

@@ -1,59 +1,107 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="styles.css"/>
-    <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-     <script type="text/javascript" src="script.js" ></script>
 
-    <title>Josh Cohen</title>
-  </head>
-  <body>
-    <header>
-      <h1>Josh Cohen</h1>
+<head>
+  <meta charset="utf-8">
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+
+  <title>Josh Cohen</title>
+</head>
+
+<body>
+  <header>
+    <h1>Josh Cohen</h1>
+    <ul>
+      <li><a href="#aboutme">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+    </ul>
+
+    <ul class="social-icons">
+      <li>
+        <a href="https://www.linkedin.com/in/joshuaandrewcohen" target="_blank"><img src="images/linkedin.png" alt="LinkedIn" /></a>
+      </li>
+      <li>
+        <a href="https://www.github.com/jacohen10" target="_blank"><img src="images/github.png" alt="Github" /></a>
+      </li>
+      <li>
+        <a href="https://profiles.generalassemb.ly/profiles/josh-cohen" target="_blank"><img src="images/ga.png" alt="General Assembly" /></a>
+      </li>
+    </ul>
+  </header>
+  <main>
+    <img src="images/IMG_1242.png" alt="Ireland" />
+
+    <div class="portfolio">
+      <a name="portfolio"></a>
+      <div class="row">
+        <div class="title" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Portfolio</div>
+      </div>
+      <div class="row">
+        <div class="content" class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <ul class="img-list">
+            <li>
+              <a href="https://github.com/jacohen10/elevate" target="_blank">
+                <img src="images/portfolio1.png" alt="css project" id="portfolio1" />
+                <span class="text-content">
+                  <span>
+                    <h2>
+                      Elevate
+                    </h2>
+                    <p>
+                      Ruby on Rails meal plan app for students and restaurants. The app handles all the ordering and meal tracking logistics.
+                    </p>
+
+                    <ul id="portfolio-features">
+                      <p>
+                        Features include:
+                      </p>
+                      <li>CanCanCan for authorization depending on the role of the user(customer, restaurant, admin)</li>
+                      <li>Business hours so customers can only order from open restaurants </li>
+                      <li>Mailers to notify restaurants of meals that were ordered ahead </li>
+                      <li>Automated phone calls with the Twilio API as a 2nd alert for meals that were ordered in advance</li>
+                    </ul>
+                  </span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/jacohen10/Project-3-API" target="_blank">
+                <img src="images/portfolio2.png" alt="css project" id="portfolio2" />
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="about">
+      <a name="aboutme"></a>
+      <div class="title" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">About Me</div>
+      <div class="content">Welcome to my page! Over the last few years I have become increasingly interested in programming and this past October decided to take GA’s Web Development Immersive course to pursue my passion full-time. My experience at GA has given me a strong
+        base in order to start my development career. Thinking through ideas and bringing them to life while continuously learning new concepts and tools to use has been a rewarding experience. I look forward to taking what I have learned at GA and
+        using it to further grow as a developer.</div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="contact">
+      <div class="title">Contact Me</div>
       <ul>
-        <li><a href="#aboutme">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
+        <li>
+          <a href="mailto:jacohen10@gmail.com?subject=Hi%20Josh%20"><img src="images/email.png" alt="Email" /></a>
+        </li>
       </ul>
+    </div>
+  </footer>
 
-      <ul class="social-icons">
-        <li><a href="https://www.linkedin.com/in/joshuaandrewcohen" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"/></a></li>
-        <li><a href="https://www.github.com/jacohen10" target="_blank"><img src="images/github.png" alt="Github"/></a></li>
-        <li><a href="https://profiles.generalassemb.ly/profiles/josh-cohen" target="_blank"><img src="images/ga.png" alt="General Assembly"/></a></a></li>
-      </ul>
-    </header>
-      <main>
-        <img src="images/IMG_1242.png" alt="Ireland" />
-        <div class="portfolio">
-          <a name="portfolio"></a>
-          <div class="title">Portfolio</div>
-          <div class="content">
-            <a href="https://github.com/jacohen10/elevate" target="_blank">
-              <img src="images/portfolio1.png" alt="css project"/>
-            </a>
-            <a href="https://github.com/jacohen10/Project-3-API" target="_blank">
-              <img src="images/portfolio2.png" alt="css project"/>
-            </a>
-          </div>
-        </div>
+</body>
 
-        <div class="about">
-          <div class="title"><a name="aboutme">About Me</a></div>
-          <div class="content">Welcome to my page! Over the last few years I have become increasingly interested in programming and this past October decided to take GA’s Web Development Immersive course to pursue my passion full-time. My experience at GA has given me a strong base in order to start my development career. Thinking through ideas and bringing them to life while continuously learning new concepts and tools to use has been a rewarding experience. I look forward to taking what I have learned at GA and using it to further grow as a developer.</div>
-        </div>
-
-
-      </main>
-
-    <footer>
-        <div class="contact">
-          <div class="title">Contact Me</div>
-        <ul>
-          <li><a href="mailto:jacohen10@gmail.com?subject=Hi%20Josh%20"><img src="images/email.png" alt="Email"/></a></a></li>
-        </ul>
-        </div>
-    </footer>
-
-  </body>
 </html>

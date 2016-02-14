@@ -14,4 +14,18 @@ $(document).ready(function(){
     });
   });
 
+  function findImgHeight() {
+    portfolio1 = $("#portfolio1")[0];
+    portfolio1Span = $(".text-content")[0];
+    imgHeight = portfolio1.height + 8;
+    console.log(imgHeight);
+    $(portfolio1Span).css("height", imgHeight + "px");
+
+    console.log(imgHeight);
+  }
+  findImgHeight();
+
+  $(window).on('resize', function(){
+    findImgHeight();
+  });
 });
