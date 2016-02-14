@@ -156,6 +156,8 @@ ul.img-list li:hover span.text-content {
 .about {
   margin: auto;
   padding: 15px 0 25px 0;
+  background: black;
+  color: white;
 }
 
 
@@ -165,9 +167,10 @@ ul.img-list li:hover span.text-content {
 
 .title {
   text-align: center;
-  font-size: 25px;
   font-weight: bold;
   padding: 20px;
+  font-family: 'Tangerine', cursive;
+  font-size: 5em;
 }
 
 .title a {
@@ -175,9 +178,9 @@ ul.img-list li:hover span.text-content {
 }
 
 footer{
-  background: black;
+
   margin: auto;
-  color: white;
+
   text-align: center;
   padding: 15px 0px 15px 0px;
 }
