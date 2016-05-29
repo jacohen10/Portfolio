@@ -1,0 +1,35 @@
+.title span {
+  font-size: 1.75em;
+}
+
+#logo p {
+  margin-top: 8px;
+}
+
+#logo h1 {
+  font-size: 2.5em;
+}
+
+.section-header {
+  font-weight: 700;
+  color: #fff;
+  font-size: 2.75em;
+  letter-spacing: 0.075em;
+}
+
+#intro ul {
+  text-align: left;
+}
+
+.installation-details {
+  padding: 10px;
+}
+
+#lightbulb {
+  font-size: 1.5em
+}
+
+.led-details {
+  padding: 0;
+  margin-bottom: 0;
+}
