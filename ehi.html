@@ -34,7 +34,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 						<li><a href="#gsa">GSA Contract</a></li>
 						<li><a href="#tv">TV Installation</a></li>
 						<li><a href="#led">LED Fixtures</a></li>
-						<li><a href="#manu">Manufacturers</a></li>
+						<li><a href="#manufacturers">Manufacturers</a></li>
 						<li><a href="#contact">Contact Us</a></li>
 					</ul>
 				</nav>
@@ -156,23 +156,54 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
 		<!-- Highlights -->
 		<div class="wrapper style2">
-			<div class="title">Manufacturers<a name="manu"></a></div>
+			<div class="title">Manufacturers<a name="manufacturers"></a></div>
 			<div id="highlights" class="container">
 				<div class="row 150%">
 					<div class="4u 12u(mobile)">
 						<section class="highlight">
-							<a href="#" class="image featured"><img src="images/Samsung-Logo.jpg" alt="" /></a>
+							<a href="#" class="image featured"><img src="images/LG_Logo.png" alt="" /></a>
 						</section>
 					</div>
 					<div class="4u 12u(mobile)">
 						<section class="highlight">
-							<a href="#" class="image featured"><img src="images/sharp-logo.jpg" alt="" /></a>
+							<a href="#" class="image featured"><img src="images/peerless.png" alt="" /></a>
 						</section>
 					</div>
 					<div class="4u 12u(mobile)">
 						<section class="highlight">
-							<a href="#" class="image featured"><img src="images/Toshiba-Logo.png" alt="" /></a>
+							<a href="#" class="image featured"><img src="images/rca.png" alt="" /></a>
 						</section>
+					</div>
+
+					<div class="row 150%">
+						<div class="4u 12u(mobile)">
+							<section class="highlight">
+								<a href="#" class="image featured"><img src="images/Amplivox-Logo.jpg" alt="" /></a>
+							</section>
+						</div>
+						<div class="4u 12u(mobile)">
+							<section class="highlight">
+								<a href="#" class="image featured"><img src="images/da-lite.png" alt="" /></a>
+							</section>
+						</div>
+						<div class="4u 12u(mobile)">
+							<section class="highlight">
+								<a href="#" class="image featured"><img src="images/vutech.jpg" alt="" /></a>
+							</section>
+						</div>
+					</div>
+
+					<div class="row 150%">
+						<div class="4u 12u(mobile)">
+							<section class="highlight">
+								<a href="#" class="image featured"><img src="images/cooltouch-logo.jpg" alt="" /></a>
+							</section>
+						</div>
+						<div class="4u 12u(mobile)">
+							<section class="highlight">
+								<a href="#" class="image featured"><img src="images/videotel.jpg" alt="" /></a>
+							</section>
+						</div>
 					</div>
 
 				</div>
@@ -278,21 +309,21 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="assets/js/main.js"></script>
 	<script type="text/javascript">
-		scrollToAnchor()
-		function scrollToAnchor() {
-			$('a[href*="#"]:not([href="#"])').click(function() {
-				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-					var target = $(this.hash);
-					target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-					if (target.length) {
-						$('html, body').animate({
-							scrollTop: target.offset().top
-						}, 1000);
-						return false;
-					}
+	scrollToAnchor()
+	function scrollToAnchor() {
+		$('a[href*="#"]:not([href="#"])').click(function() {
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				if (target.length) {
+					$('html, body').animate({
+						scrollTop: target.offset().top
+					}, 1000);
+					return false;
 				}
-			});
-		};
+			}
+		});
+	};
 	</script>
 
 </body>
